@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.filter {
+  flex: 1;
+  max-width: 300px;
+  margin-right: 20px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter h2 {
+  margin-top: 0;
+}
+
+.filter-option {
+  margin: 10px 0;
+}
+
+.ticket-list {
+  flex: 3;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.sort-btn {
+  padding: 10px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-btn:hover {
+  background-color: #218838;
+}
+
+.tickets {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ticket {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.price {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.flight-details {
+  display: block;
+  margin: 5px 0;
 }
