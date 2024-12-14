@@ -46,7 +46,9 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-
+li{
+  cursor: pointer;
+}
 .sort-btn:hover {
   background-color: #218838;
 }
