@@ -9,8 +9,22 @@ body {
   justify-content: center;
   align-items: flex-start;
   padding: 20px;
+  flex-direction: row;
 }
+@media (max-width: 320px) {
+  .container {
+    flex-direction: column;
+  }
 
+  .filter {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .ticket-list {
+    width: 100%;
+  }
+}
 .filter {
   flex: 1;
   max-width: 300px;
@@ -46,7 +60,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
-li{
+li {
   cursor: pointer;
 }
 .sort-btn:hover {
