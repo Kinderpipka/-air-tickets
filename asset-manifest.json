@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AirTickets/static/css/main.a7433d3f.css",
+    "main.js": "/AirTickets/static/js/main.37268142.js",
+    "index.html": "/AirTickets/index.html",
+    "main.a7433d3f.css.map": "/AirTickets/static/css/main.a7433d3f.css.map",
+    "main.37268142.js.map": "/AirTickets/static/js/main.37268142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7433d3f.css",
+    "static/js/main.37268142.js"
+  ]
+}
